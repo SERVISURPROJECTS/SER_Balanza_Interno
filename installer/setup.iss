@@ -21,7 +21,7 @@ AppId={{B5C2B8B1-6E1A-4E9F-9A9C-2E7B2B9B9A6A}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 AppPublisher={#MyAppPublisher}
-DefaultDirName={autopf}\{#MyAppName}
+DefaultDirName={userpf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
 OutputDir=output
@@ -31,6 +31,10 @@ SolidCompression=yes
 ArchitecturesInstallIn64BitMode=x64compatible
 CloseApplications=yes
 RestartApplications=no
+; Instalacion por usuario (sin permisos de administrador): la app ya guarda su base de datos y
+; config en %LocalAppData%, no necesita Program Files. Esto evita el prompt de UAC, que un usuario
+; sin cuenta de administrador no puede aprobar.
+PrivilegesRequired=lowest
 
 [Languages]
 Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
