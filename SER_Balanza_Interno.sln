@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37614.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SER_Balanza_Interno", "SER_Balanza_Interno.csproj", "{11E4BF6E-FAFB-4E84-AE03-59F67FDA3FC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11E4BF6E-FAFB-4E84-AE03-59F67FDA3FC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E4BF6E-FAFB-4E84-AE03-59F67FDA3FC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E4BF6E-FAFB-4E84-AE03-59F67FDA3FC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E4BF6E-FAFB-4E84-AE03-59F67FDA3FC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {337A7E45-0F5D-47C9-A894-8AA872FC039D}
+	EndGlobalSection
+EndGlobal

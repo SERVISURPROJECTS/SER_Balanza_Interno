@@ -1,0 +1,14 @@
+# Build output
+bin/
+obj/
+installer/output/
+
+# Visual Studio
+.vs/
+*.user
+
+# Config con credenciales reales (ver appsettings.example.json para la plantilla)
+appsettings.json
+
+# Logs temporales de publicacion
+publish_log.txt
